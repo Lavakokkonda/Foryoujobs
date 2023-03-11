@@ -413,3 +413,15 @@ main{
 .social-media-list .fa-whatsapp {
   color: #25d366;
 }
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #fff;
+}
+
+/* Change the color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #091e49;
+}
