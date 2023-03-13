@@ -15,15 +15,36 @@ body{
   box-shadow: 0 2px 5px rgba(0,0,0,.1);
 }
 
-.social-media i {
+.social-media a {
   margin-right: 10px;
   font-size: 18px;
   color: #333;
   transition: color 0.2s;
 }
 
-.social-media i:hover {
+.social-media a:hover {
   cursor: pointer;
+  
+}
+
+.social-media a:hover.whatsapp i{
+  color: #25D366;
+  transform: scale(1.1);
+}
+.social-media a:hover.twitter i{
+  color: #55acee;
+  transform: scale(1.1);
+}
+.social-media a:hover.linkedin i{
+  color: #0077b5;
+  transform: scale(1.1);
+}
+.social-media a:hover.telegram i{
+  color: #00405d;
+  transform: scale(1.1);
+}
+.social-media a:hover.instagram i{
+  color: #E1306C;
   transform: scale(1.1);
 }
 
@@ -263,7 +284,7 @@ footer {
 
 }
 .social-icons a:hover.telegram{
-  background-color: #0088cc;
+  background-color: #00405d;
   transform: scale(1.1);
 
 }
