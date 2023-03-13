@@ -49,12 +49,22 @@ var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'S
 			}
 		  }
 		  
+
+		//   top button
+		  window.addEventListener("scroll", function() {
+			var topBtn = document.getElementById("topBtn");
+			if (window.pageYOffset > (document.documentElement.scrollHeight - window.innerHeight) || window.pageYOffset === 0) {
+			  topBtn.style.display = "none";
+			} else {
+			  topBtn.style.display = "block";
+			}
+		  });
 		  function scrollToTop() {
 			window.scrollTo({
-				top: 0,
-				behavior: "smooth"
+			  top: 0,
+			  behavior: "smooth"
 			});
-		}
+		  }
 
 
 		
