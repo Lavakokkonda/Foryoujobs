@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="Home.css">
+  <link rel="stylesheet" href="homemain.css">
+    <title>ForYouJobs</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    
+  </style>
+</head>
+<body>
+  
+  <div class="top-bar">
+		<div>
+			<span class="date" id="date"></span>
+			<span class="day" id="day"></span>
+		</div>
+		<div class="social-media">
+			<a href="#" class="whatsapp"><i  class="fa-brands fa-whatsapp" ></i></a>
+			<a href="#" class="twitter"><i  class="fab fa-twitter"></i></a>
+			<a href="#" class="linkedin"><i  class="fab fa-linkedin"></i></a>
+			<a href="#" class="telegram"><i  class="fab fa-telegram"></i></a>
+			<a href="#" class="instagram"><i  class="fab fa-instagram"></i></a>
+		</div>
+	</div>
+
+
+
+  <header>
+  <nav class="navbar">
+    <div class="navbar__left">
+      <a href="#" class="navbar__logo">ForYou Jobs</a> 
+    </div>
+    <div class="navbar__right">
+      <ul class="navbar__list">
+        <li class="navbar__item"><a href="#">Home</a></li>
+        <li class="navbar__item"><a href="#">Jobs</a></li>
+        <li class="navbar__item"><a href="#">About Us</a></li>
+        <li class="navbar__item"><a href="#">Contact</a></li>
+      </ul>
+      <button class="navbar__toggle-button" onclick="toggleMenu()">&#9776;</button>
+      <!-- <span class="navbar__page-name">Home</span> -->
+    </div>
+  </nav>
+</header>
+
+
+
+<div class="main-content">
+    <h2>Recent Job Postings</h2>
+    <div class="job-listings">
+      <div class="job-listing">
+        <h3>Web Designer</h3>
+        <p>ABC Company</p>
+        <p>Location: Anywhere</p>
+        <a href="#">Apply Now</a>
+      </div>
+      <div class="job-listing">
+        <h3>Marketing Coordinator</h3>
+        <p>XYZ Agency</p>
+        <p>Location: New York, NY</p>
+        <a href="#">Apply Now</a>
+      </div>
+      <div class="job-listing">
+        <h3>Software Developer</h3>
+        <p>123 Corporation</p>
+        <p>Location: San Francisco, CA</p>
+        <a href="#">Apply Now</a>
+      </div>
+      <!-- more job listings... -->
+    </div>
+  </div>
+  
+
+
+
+<!-- top button -->
+
+<button onclick="scrollToTop()" id="topBtn" style="display: none;">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+
+<!-- <div class="social-media-icons">
+  <ul>
+    <li><a class="whatsapp" href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+    <li><a class="telegram" href="#"><i class="fa-brands fa-telegram"></i></a></li>
+    <li><a class="twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a class="instagram" href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a class="linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+  </ul>
+</div> -->
+<!-- for sharing  -->
+<div class="social-media-list">
+  <ul>
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u=[url]" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+    <li><a href="https://twitter.com/intent/tweet?url=[url]&text=[title]" target="_blank"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="https://www.linkedin.com/shareArticle?mini=true&url=[url]&title=[title]&summary=[summary]&source=[source]" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+    <li><a href="https://wa.me/?text=https://fresherjobinfo.in/" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+    <li><a href="https://wa.me/?text=[url]" target="_blank"><i class="fa-solid fa-share-nodes"></i></a></li>
+  </ul>
+</div>
+
+
+
+<footer>
+    <div class="footer-content">
+      <div class="copy">
+        <p>&copy; 2023 All Rights Reserved</p>
+      </div>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> foryoujobs@gmail.com</p>
+      </div>
+
+      <div class="social-icons">
+        <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" class="telegram"><i class="fab fa-telegram"></i></a>
+        <a href="#" class="whatsapp"><i class="fa-brands fa-whatsapp"></i></i></a>
+      </div>
+
+      
+    </div>
+</footer>
+  
+  <script src="home.js"></script>
+</body>
+</html>
