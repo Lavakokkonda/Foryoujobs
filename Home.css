@@ -331,9 +331,11 @@ main{
   height: 500vh;
 }
 
+/* top button */
+
 #topBtn {
   position: fixed;
-  bottom: 100px;
+  bottom: 90px;
   right: 30px;
   z-index: 99;
   font-size: 18px;
